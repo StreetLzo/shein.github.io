@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #111;
+    margin-top: 10px;
+}
+
+p {
+    margin: 15px 0;
+    color: #444;
+}
+
+strong {
+    color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #000;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}
+
+.seguranca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 5px;
+}
+
+.cadeado-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.texto-seguranca {
+    color: #30BFBF; /* Mesma cor do cadeado */
+    font-weight: 500;
+}
